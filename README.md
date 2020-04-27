@@ -1,6 +1,6 @@
 # unpushed-commit-tracker
 
-This is a spring-boot project which has 2 separate services in it known as
+This is a sample spring-boot project which works on your current branch and has 2 separate services in it known as
 <ol> 
   <li>get-unpushed-commits</li>
   <li>get-unpushed-files</li>
