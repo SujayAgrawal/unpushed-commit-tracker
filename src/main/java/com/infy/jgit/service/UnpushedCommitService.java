@@ -79,10 +79,11 @@ public class UnpushedCommitService {
 				response.setUnpushedCommit(unpushedCommits);
 				return response;
 			} else {
+				System.out.println("No Unpushed commits present");
 				throw new RuntimeException("No Unpushed commits present");
 			}
 		} catch (Exception e) {
-			throw new RuntimeException("Some unexpected exception ocurred! Please Check if your request is correct.");
+			throw new RuntimeException(e);
 		}
 	}
 
